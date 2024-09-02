@@ -1,0 +1,27 @@
+const path = require('path');
+
+module.exports = {
+  //'config': path.resolve('sequelize-cli.js'),
+  'config': path.resolve('src', 'infrastructure', 'database', 'config', 'config.js'),
+  'models-path': path.resolve('src', 'infrastructure', 'database', 'models'),
+  'seeders-path': path.resolve('src', 'infrastructure', 'database', 'seeders'),
+  'migrations-path': path.resolve('src', 'infrastructure', 'database', 'migrations')
+};
+
+/* const path = require('path');
+
+module.exports = {
+  'config': path.resolve('src', 'infrastructure', 'database', 'config', 'config.ts'),
+  'models-path': path.resolve('src', 'infrastructure', 'database', 'models'),
+  'seeders-path': path.resolve('src', 'infrastructure', 'database', 'seeders'),
+  'migrations-path': path.resolve('src', 'infrastructure', 'database', 'migrations')
+}; */
+
+/* 
+const path = require('path');
+module.exports = {
+  'config': path.resolve('src', 'infrastructure', 'database', 'config', 'database.ts'),
+  'models-path': path.resolve('src', 'infrastructure', 'database', 'models'),
+  'seeders-path': path.resolve('src', 'infrastructure', 'database', 'seeders'),
+  'migrations-path': path.resolve('src', 'infrastructure', 'database', 'migrations')
+}; */
